@@ -370,7 +370,7 @@ def main():
     
     # Create features
     print("\nCreating enhanced features...")
-    df_features = create_features(df)
+    df_features = create_fecreate_features(df)
     
     # Train/Test Split (time-aware - no future data in training)
     split_idx = int(len(df_features) * 0.8)
